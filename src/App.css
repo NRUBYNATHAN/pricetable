@@ -1,0 +1,51 @@
+
+.total{
+  background-color: rgb(241, 246, 246);
+  width:350px;
+  height:600px;
+  border-radius: 20px;
+  
+}
+.first{
+  color:darkgreen;
+padding-top: 10px;
+  border-bottom:1px solid black ;
+  text-align: center;
+}
+.second{
+  padding-left: 30px;
+}
+.button{
+  margin-top: 30px;
+  width:320px;
+  height: 50px;
+  border: antiquewhite;
+  border-radius: 30px;
+  margin-left: 15px;
+  background-color:blue;
+
+}
+.price{
+  font-size: 30px;
+  margin-top: 0;
+}
+.list{
+  margin-top: 30px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+  justify-items:center;
+  gap:30px;
+}
+.total:hover {
+  box-shadow: 0 0.5rem 1rem 0 rgba(18, 5, 5, 0.3);
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  
+}
+
+.button:hover{
+background-color: rgb(105, 105, 235);
+}
+.month{
+  font-size:15px;
+}
